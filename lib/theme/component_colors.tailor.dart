@@ -44,7 +44,8 @@ class ComponentColors extends ThemeExtension<ComponentColors> {
     return ComponentColors(
       buttonBackground:
           buttonBackground.lerp(other.buttonBackground, t) as InvalidType,
-      buttonForeground: t < 0.5 ? buttonForeground : other.buttonForeground,
+      buttonForeground:
+          buttonForeground.lerp(other.buttonForeground, t) as InvalidType,
     );
   }
 

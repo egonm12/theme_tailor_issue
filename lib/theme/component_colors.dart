@@ -8,5 +8,6 @@ part 'component_colors.tailor.dart';
 class _$ComponentColors {
   @themeExtension
   static const buttonBackground = [CoreColors.light.primary];
+  @themeExtension
   static const buttonForeground = [CoreColors.light.secondary];
 }
